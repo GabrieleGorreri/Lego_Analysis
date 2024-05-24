@@ -13,7 +13,11 @@ Real data analysis project with Python Pandas about Star Wars and other licensed
 
 
 ##  📄 Exploring the Evolution of Lego!
-This data analysis projects aims to analyze and answer business questions about 12 months worth of sales data, about consumer electronics. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
+Lego is a household name across the world, supported by a diverse toy line, hit movies, and a series of successful video games. In this project, we are going to explore a key development in the history of Lego: the introduction of licensed sets such as Star Wars, Super Heroes, and Harry Potter.
+
+Lego has had its share of ups and downs since its inception in the early 20th century. This includes a particularly rough period in the late 90s. As described in this article, Lego was only able to survive due to a successful internal brand (Bionicle) and the introduction of its first licensed series: Star Wars.
+
+The Account Executive responsible for the Star Wars partnership has asked for specific information in preparation for their meeting with the Star Wars team.
 
 ### Tools
 - Python: Pandas, Plotly
@@ -46,31 +50,12 @@ Those are the varaibles for each .csv file
 |----|------------|-------|-------|-------|-------|
 
 
-##  🔧 Task #1
-Cleaning our data. Tasks during this section include:
+##  🔧 Tasks
+- What percentage of all licensed sets ever released were Star Wars themed?
 
-- Drop NaN values from DataFrame
-- Removing rows based on a condition
-- Change the type of columns (to_numeric, to_datetime, astype)
+- In which year was Star Wars not the most popular licensed theme (in terms of number of sets released that year)?
 
-##  🔧 Task #2
-Data exploration section. In this section we explore 5 high level business questions related to our data:
-
-- What was the best month for sales? How much was earned that month?
-- What city sold the most product?
-- What time should we display advertisemens to maximize the likelihood of customer’s buying product?
-- What products are most often sold together?
-- What product sold the most? Why do you think it sold the most?
-
-To answer these questions we walk through many different pandas & matplotlib methods. They include:
-
-- Concatenating multiple csvs together to create a new DataFrame (pd.concat)
-- Adding columns
-- Parsing cells as strings to make new columns (.str)
-- Using the .apply() method
-- Using groupby to perform aggregate analysis
-- Plotting bar charts and lines graphs to visualize our results
-- Labeling our graphs
+- How many number of sets per year?
 
 ##  💾 Resources
 [Github Repository](https://github.com/KeithGalli/Pandas-Data-Science-Tasks) 
