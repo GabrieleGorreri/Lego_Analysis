@@ -26,28 +26,26 @@ The Account Executive responsible for the Star Wars partnership has asked for sp
 Here below is the folder structure containing the files used in the analysis, and the python notebook:
 
 ```
-Sales_Analysis
-├── Sales_Data
-│   ├── Sales_December_2019.csv
-│   ├── Sales_October_2019.csv
-│   ├── Sales_June_2019.csv
-│   ├── Sales_November_2019.csv
-│   ├── Sales_July_2019.csv
-│   ├── Sales_February_2019.csv
-│   ├── Sales_March_2019.csv
-│   ├── Sales_September_2019.csv
-│   ├── Sales_January_2019.csv
-│   ├── Sales_April_2019.csv
-│   ├── Sales_August_2019.csv
-├── Sales_Analysis.ipynb
-├── Graphs
+Lego_Analysis
+├── datasets
+│   ├── lego_sets.csv
+│   ├── parent_themes.csv
+│   ├── sets.csv
+│   ├── themes.csv
+├── Lego_Analysis.ipynb
 └── README.md
 ```
 
-Those are the varaibles for each .csv file
+These are the varaibles for lego_sets.csv file:
 
-| ORDER ID | PRODUCT | QUANTITY ORDERED | PRICE EACH | ORDER DATE | PURCHASE ADDRESS 
+| set_num | name | year | num_parts | theme_name | parent_theme |
 |----|------------|-------|-------|-------|-------|
+
+
+These are the varaibles for parent_theme.csv file:
+
+| id | name | is_licensed |
+|----|------------|-------|
 
 
 ##  🔧 Tasks
@@ -60,7 +58,8 @@ Those are the varaibles for each .csv file
 ##  💾 Resources
 [Github Repository](https://github.com/KeithGalli/Pandas-Data-Science-Tasks) 
 
-[YouTube Video](https://www.youtube.com/watch?v=eMOA1pPVUc4&t=802s)
+[YouTube Video](https://www.youtube.com/watch?v=BzQDi4D0B_M)
+
 
 ## 💡 Credit
 [Keith Galli](https://github.com/KeithGalli)
