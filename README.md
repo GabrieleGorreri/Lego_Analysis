@@ -56,7 +56,7 @@ These are the varaibles for parent_theme.csv file:
 - How many number of sets per year?
 
 ##  💾 Resources
-[Github Repository](https://github.com/KeithGalli/Pandas-Data-Science-Tasks) 
+[Github Repository](https://github.com/KeithGalli/lego-analysis)
 
 [YouTube Video](https://www.youtube.com/watch?v=BzQDi4D0B_M)
 
